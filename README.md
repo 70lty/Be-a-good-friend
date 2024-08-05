@@ -2,7 +2,7 @@
 
 
 - 🔭 Use setup and SalatReminder.bat
-- 🔋​ **Change your location in the code ! !!**
+- 🔋​ Change your location in the main.py !
 - 🔋​ **Automatic launch on Windows startup !!!**
 
 <p align="left">
