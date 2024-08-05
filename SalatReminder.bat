@@ -31,5 +31,6 @@ echo Files copied to startup folder.
 
 pythonw "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\main.py"
 
+echo You can close me now.
 endlocal
 exit /b 0
