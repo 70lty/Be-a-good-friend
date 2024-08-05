@@ -29,7 +29,7 @@ copy "%~dp0main.py" "%startup_folder%" >nul
 
 echo Files copied to startup folder.
 
-pythonw "main.py"
+pythonw "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\main.py"
 
 endlocal
 exit /b 0
