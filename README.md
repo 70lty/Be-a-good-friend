@@ -1,7 +1,7 @@
 <h3 align="center">Open source tool</h3>
 
 
-- 🔭 Use setup and BeAGoodFriend
+- 🔭 Use setup and SalatReminder.bat
 - 🔋​ **Change your location in the code ! !!**
 - 🔋​ **Automatic launch on Windows startup !!!**
 
