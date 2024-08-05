@@ -1,8 +1,8 @@
 <h3 align="center">Open source tool</h3>
 
 
-- 🔭 Use setup and BeAGoodFriend
-- 🔋​ **Change your location in the code ! !!**
+- 🔭 Use setup and SalatReminder.bat
+- 🔋​ Change your location in the main.py !
 - 🔋​ **Automatic launch on Windows startup !!!**
 
 <p align="left">
