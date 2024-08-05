@@ -75,7 +75,7 @@ def show_reminder(text):
         screen.blit(text_surface, text_rect)
         pygame.display.flip()
         
-        if (datetime.now() - start_time).seconds > 30:
+        if (datetime.now() - start_time).seconds > 40:
             running = False
             pygame.mixer.music.stop() 
     
