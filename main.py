@@ -27,7 +27,8 @@ def get_prayer_times(url):
             'Dhuhr': datetime.strptime(prayer_times['dhuhr'], '%I:%M %p').time(),
             'Asr': datetime.strptime(prayer_times['asr'], '%I:%M %p').time(),
             'Maghrib': datetime.strptime(prayer_times['maghrib'], '%I:%M %p').time(),
-            'Isha': datetime.strptime(prayer_times['isha'], '%I:%M %p').time()
+            'Isha': datetime.strptime(prayer_times['isha'], '%I:%M %p').time(),
+            # 'Test': datetime.strptime('23:46', '%H:%M').time(),
         }
     else:
         print(f"Failed to get prayer times. Status code: {response.status_code}")
@@ -36,6 +37,7 @@ def get_prayer_times(url):
 def play_adhan():
     pygame.mixer.init()
     pygame.mixer.music.load(tmp_filename)
+    pygame.mixer.music.set_volume(0.1)
     pygame.mixer.music.play()
     show_reminder("L'heure de la prière !")
     if pygame.mixer.music.get_busy():
