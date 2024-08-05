@@ -88,9 +88,7 @@ def schedule_prayers(prayer_times):
         schedule.every().day.at(schedule_time).do(play_adhan)
         print(f"Scheduled {prayer} prayer at {schedule_time}")
 
-city = 'Ans'
-country = 'Belgium'
-url = 'https://muslimsalat.com/ans.json'
+url = 'https://muslimsalat.com/ans.json' # Change your location here, check it on https://muslimsalat.com/YOURLOCATION.json
 prayer_times = get_prayer_times(url)
 
 if prayer_times:
